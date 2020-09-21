@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_train.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cricket_country.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Football_country.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Training.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="India.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Batsmen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Virat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dhoni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rohit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shikhar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bowlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bumrah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shami.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Umesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="All-rounders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jadeja.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ashwin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Warner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Smith.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Finch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maxwell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cummins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Siddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stoinis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Marsh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zampa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FootballPlayers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Messi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aguero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DyBala.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeMaria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mbappe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pogba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kante.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Griezmann.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ramos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Morata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Isco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asensio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_train.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cricket_country.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Football_country.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Training.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="India.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Batsmen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Virat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dhoni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rohit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shikhar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bowlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bumrah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shami.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Umesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="All-rounders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jadeja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ashwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Warner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Smith.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Finch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maxwell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cummins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Siddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stoinis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Marsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zampa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballPlayers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Messi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aguero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DyBala.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeMaria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mbappe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pogba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kante.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Griezmann.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ramos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Morata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Isco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asensio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2F589DE3-A001-48C5-A1B3-3421EE96807C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>CLRproj1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aguero.cpp" />
+    <ClCompile Include="All-rounders.cpp" />
+    <ClCompile Include="Asensio.cpp" />
+    <ClCompile Include="Ashwin.cpp" />
+    <ClCompile Include="Batsmen.cpp" />
+    <ClCompile Include="Bowlers.cpp" />
+    <ClCompile Include="Bumrah.cpp" />
+    <ClCompile Include="Cricket_country.cpp" />
+    <ClCompile Include="Cummins.cpp" />
+    <ClCompile Include="DeMaria.cpp" />
+    <ClCompile Include="Dhoni.cpp" />
+    <ClCompile Include="DyBala.cpp" />
+    <ClCompile Include="Finch.cpp" />
+    <ClCompile Include="FootballPlayers.cpp" />
+    <ClCompile Include="Football_country.cpp" />
+    <ClCompile Include="Griezmann.cpp" />
+    <ClCompile Include="Hardik.cpp" />
+    <ClCompile Include="HMM.cpp" />
+    <ClCompile Include="India.cpp" />
+    <ClCompile Include="Isco.cpp" />
+    <ClCompile Include="Jadeja.cpp" />
+    <ClCompile Include="Kante.cpp" />
+    <ClCompile Include="Marsh.cpp" />
+    <ClCompile Include="Maxwell.cpp" />
+    <ClCompile Include="Mbappe.cpp" />
+    <ClCompile Include="Messi.cpp" />
+    <ClCompile Include="Morata.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Pogba.cpp" />
+    <ClCompile Include="Ramos.cpp" />
+    <ClCompile Include="Rohit.cpp" />
+    <ClCompile Include="Shami.cpp" />
+    <ClCompile Include="Shikhar.cpp" />
+    <ClCompile Include="Siddle.cpp" />
+    <ClCompile Include="Smith.cpp" />
+    <ClCompile Include="Sports.cpp" />
+    <ClCompile Include="Stark.cpp" />
+    <ClCompile Include="Stoinis.cpp" />
+    <ClCompile Include="Test_train.cpp" />
+    <ClCompile Include="Training.cpp" />
+    <ClCompile Include="Umesh.cpp" />
+    <ClCompile Include="Virat.cpp" />
+    <ClCompile Include="Warner.cpp" />
+    <ClCompile Include="Zampa.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aguero.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="All-rounders.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Asensio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ashwin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Batsmen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Bowlers.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Bumrah.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cricket_country.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cummins.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DeMaria.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Dhoni.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DyBala.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Finch.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FootballPlayers.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Football_country.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Griezmann.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hardik.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HMM.h" />
+    <ClInclude Include="India.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Isco.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Jadeja.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Kante.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Marsh.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Maxwell.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mbappe.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Messi.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Morata.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pogba.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ramos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rohit.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Shami.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Shikhar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Siddle.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Smith.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sports.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Stark.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Stoinis.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Test_train.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Training.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Umesh.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Virat.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Warner.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Zampa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="All-rounders.resx">
+      <DependentUpon>All-rounders.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ashwin.resx">
+      <DependentUpon>Ashwin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Batsmen.resx">
+      <DependentUpon>Batsmen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bowlers.resx">
+      <DependentUpon>Bowlers.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bumrah.resx">
+      <DependentUpon>Bumrah.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cricket_country.resx">
+      <DependentUpon>Cricket_country.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cummins.resx">
+      <DependentUpon>Cummins.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dhoni.resx">
+      <DependentUpon>Dhoni.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finch.resx">
+      <DependentUpon>Finch.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FootballPlayers.resx">
+      <DependentUpon>FootballPlayers.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Football_country.resx">
+      <DependentUpon>Football_country.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardik.resx">
+      <DependentUpon>Hardik.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="India.resx">
+      <DependentUpon>India.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jadeja.resx">
+      <DependentUpon>Jadeja.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maxwell.resx">
+      <DependentUpon>Maxwell.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shami.resx">
+      <DependentUpon>Shami.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shikhar.resx">
+      <DependentUpon>Shikhar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siddle.resx">
+      <DependentUpon>Siddle.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Smith.resx">
+      <DependentUpon>Smith.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sports.resx">
+      <DependentUpon>Sports.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stark.resx">
+      <DependentUpon>Stark.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stoinis.resx">
+      <DependentUpon>Stoinis.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test_train.resx">
+      <DependentUpon>Test_train.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Training.resx">
+      <DependentUpon>Training.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Umesh.resx">
+      <DependentUpon>Umesh.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Virat.resx">
+      <DependentUpon>Virat.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warner.resx">
+      <DependentUpon>Warner.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zampa.resx">
+      <DependentUpon>Zampa.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
